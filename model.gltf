@@ -4,47 +4,47 @@
          "bufferView" : 2,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 4172,
+         "count" : 4100,
          "max" : [ 1, 1, 1, 1 ],
          "min" : [ 0.006584956776350737, 0.006584956776350737, 0.006584956776350737, 1 ],
-         "name" : "accessor_color_m0-PolyPaper8_-87080",
+         "name" : "accessor_color_m0-PolyPaper21_-104470",
          "type" : "VEC4"
       },
       {
          "bufferView" : 0,
          "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 5772,
-         "max" : [ 4171 ],
+         "count" : 5664,
+         "max" : [ 4099 ],
          "min" : [ 0 ],
-         "name" : "accessor_indices_0_m0-PolyPaper8_-87080",
+         "name" : "accessor_indices_0_m0-PolyPaper21_-104470",
          "type" : "SCALAR"
       },
       {
          "bufferView" : 1,
-         "byteOffset" : 50064,
+         "byteOffset" : 49200,
          "componentType" : 5126,
-         "count" : 4172,
+         "count" : 4100,
          "max" : [ 0.9996576, 0.9998503, 0.9997447 ],
          "min" : [ -0.9996623, -0.9998326, -0.9999452 ],
-         "name" : "accessor_normal_m0-PolyPaper8_-87080",
+         "name" : "accessor_normal_m0-PolyPaper21_-104470",
          "type" : "VEC3"
       },
       {
          "bufferView" : 1,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 4172,
-         "max" : [ 0.2972723, 1.778878, 0.2693875 ],
-         "min" : [ -0.1609835, 0.936882, -0.9320834 ],
-         "name" : "accessor_position_m0-PolyPaper8_-87080",
+         "count" : 4100,
+         "max" : [ 0.2581681, 1.700231, -0.6322219 ],
+         "min" : [ -0.1608965, 1.07302, -0.9321716 ],
+         "name" : "accessor_position_m0-PolyPaper21_-104470",
          "type" : "VEC3"
       }
    ],
    "asset" : {
       "copyright" : "Unknown",
       "extras" : {
-         "GOOGLE_processor_version" : 293297437
+         "GOOGLE_processor_version" : 294144208
       },
       "generator" : "glTF 1-to-2 Upgrader for Google Blocks",
       "version" : "2.0"
@@ -52,23 +52,23 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 11544,
+         "byteLength" : 11328,
          "byteOffset" : 0,
          "name" : "ushortBufferView",
          "target" : 34963
       },
       {
          "buffer" : 0,
-         "byteLength" : 100128,
-         "byteOffset" : 11544,
+         "byteLength" : 98400,
+         "byteOffset" : 11328,
          "byteStride" : 12,
          "name" : "vec3BufferView",
          "target" : 34962
       },
       {
          "buffer" : 0,
-         "byteLength" : 66752,
-         "byteOffset" : 111672,
+         "byteLength" : 65600,
+         "byteOffset" : 109728,
          "byteStride" : 16,
          "name" : "vec4BufferView",
          "target" : 34962
@@ -76,7 +76,7 @@
    ],
    "buffers" : [
       {
-         "byteLength" : 178424,
+         "byteLength" : 175328,
          "name" : "model",
          "uri" : "model.bin"
       }
@@ -151,7 +151,7 @@
    ],
    "meshes" : [
       {
-         "name" : "mesh_m0-PolyPaper8_-87080",
+         "name" : "mesh_m0-PolyPaper21_-104470",
          "primitives" : [
             {
                "attributes" : {
@@ -169,7 +169,7 @@
    "nodes" : [
       {
          "mesh" : 0,
-         "name" : "node_MeshObject676473856-PolyPaper8"
+         "name" : "node_MeshObject-289924096-PolyPaper21"
       },
       {
          "children" : [ 2 ]
@@ -179,22 +179,22 @@
          "extras" : {
             "isTransformNode" : 1
          },
-         "translation" : [ 0.08137076744189525, 1.399538756131795, -0.6376998643550871 ]
+         "translation" : [ 0.06526127671924979, 1.384001870196527, -0.7545217360122781 ]
       },
       {
          "children" : [ 0 ],
-         "translation" : [ -0.08137076744189525, -1.399538756131795, 0.6376998643550871 ]
+         "translation" : [ -0.06526127671924979, -1.384001870196527, 0.7545217360122781 ]
       },
       {
          "camera" : 0,
          "children" : [ 5 ],
          "rotation" : [
-            -0.2219240542792779,
-            -0.2518950318538157,
-            -0.05946428056213488,
-            0.940086488785389
+            -0.1801754724396286,
+            0.1723116293346336,
+            0.03207620389023053,
+            0.9678928756175411
          ],
-         "translation" : [ -0.3901485748950339, 1.871145073788685, 0.1791335522541335 ]
+         "translation" : [ 0.3786846371358767, 1.734349047558754, 0.0977865632969267 ]
       },
       {
          "extensions" : {
@@ -206,7 +206,7 @@
             "isHeadLight" : 1
          },
          "name" : "headLightNode",
-         "translation" : [ -1.248470305177228, 0.6242351525886142, 0.6242351525886142 ]
+         "translation" : [ -0.4387450343067766, 0.2193725171533883, 0.2193725171533883 ]
       },
       {
          "extensions" : {
@@ -219,8 +219,8 @@
          },
          "name" : "keyLightNode",
          "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
-         "scale" : [ 0, 0, 1.260955008229001 ],
-         "translation" : [ -1.200449730876778, 3.985542529042058, -1.998936667768709 ]
+         "scale" : [ 0, 0, 0.4431324846498443 ],
+         "translation" : [ -0.3842027072320751, 2.350092101809665, -1.186515148056821 ]
       }
    ],
    "scene" : 0,
@@ -231,7 +231,7 @@
                "color" : [ 0.01176470588235294, 0.6627450980392157, 0.9568627450980393 ]
             },
             "GOOGLE_camera_settings" : {
-               "pivot" : [ 0.0814495887204455, 1.399546910173206, -0.6376998643550875 ]
+               "pivot" : [ 0, 0, 0 ]
             }
          },
          "extras" : {
@@ -241,11 +241,11 @@
             },
             "GOOGLE_geometry_data" : {
                "stats" : {
-                  "centroid" : [ 0.06050527735222296, 1.463632512584057, -0.7379816595397082 ],
-                  "radius" : 1.248470305177228,
-                  "stdev" : 0.2183996835509895
+                  "centroid" : [ 0.0589297774177692, 1.463827132509976, -0.7433826634069768 ],
+                  "radius" : 0.4387450343067766,
+                  "stdev" : 0.2015735495021374
                },
-               "visualCenterPoint" : [ 0.08137076744189525, 1.399538756131795, -0.6376998643550871 ]
+               "visualCenterPoint" : [ 0.06526127671924979, 1.384001870196527, -0.7545217360122781 ]
             },
             "GOOGLE_hemi_light" : {
                "groundColor" : [ 0.01176470588235294, 0.6627450980392157, 0.9568627450980393 ]
