@@ -1,51 +1,21 @@
-<!doctype html>
-<html>
-    <head>
-        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
-    </head>
+<!DOCTYPE html>
+<script src="./aframe-master.min.js"></script>
+<!-- include aframe-ar.js -->
+<script src="./aframe-ar.js"></script>
 
-    <body style="margin: 0; overflow: hidden;">
-        <a-scene
-            vr-mode-ui="enabled: false;"
-            loading-screen="enabled: false;"
-            renderer="logarithmicDepthBuffer: true;"
-            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
-            id="scene"
-            embedded
-            gesture-detector
-        >
-            <a-assets>
-                <a-asset-item
-                    id="animated-asset"
-                    src="assets/asset.gltf"
-                ></a-asset-item>
-            </a-assets>
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' renderer='precision: medium;'>
 
-            <a-marker
-                id="animated-marker"
-                type="pattern"
-                preset="custom"
-                url="assets/marker.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="1.6646262351023848 1.6646262351023848 1.6646262351023848"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
+		<a-marker type='barcode' value='7'>
+			<a-entity
+            position="0 -1 0"
+            scale="0.08 0.08 0.08"
+            gltf-model="./3d_santa.gltf"
+            ></a-entity>
+		</a-marker>
 
-            <a-entity camera></a-entity>
-        </a-scene>
-    </body>
+		<!-- add a simple camera -->
+		<a-entity camera></a-entity>
+	</a-scene>
+</body>
 </html>
